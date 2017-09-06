@@ -1,10 +1,22 @@
+/*
+COLOR SCHEME:
+Dark Orange: #FFA433
+BLUE: #0079E8
+GOLD ORANGE: #FFAC00
+DARK BLUE: #0035E8
+TAN YELLOW: #FFDF6B
+*/
+
+
+
 body {
     background-color: none;
+    color: #0079E8
 }
 
 #header{
     width:100%;
-    background-color:beige;
+    background-color: none;
 }
 
 #header > h1 {
