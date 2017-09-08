@@ -1,6 +1,6 @@
 /*
 COLOR SCHEME:
-Dark Orange: #FFA433
+Dark Orange: #FF520D
 BLUE: #0079E8
 GOLD ORANGE: #FFAC00
 DARK BLUE: #0035E8
@@ -17,19 +17,44 @@ body {
 #header{
     width:100%;
     background-color: none;
+    min-height: 80px;
 }
 
 #header > h1 {
     margin:0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    transform: translateY(50%);
 }
 #nav {
-    widthe:100%;
-    background-color:aqua;
+    width:100%;
+    background-color:#0035E8;
+    min-height: 80px;
+    font-family: 'Lato', sans-serif;
+    height: auto;
+}
+#nav > ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    transform: translateY(50%)
 }
 
+#nav > ul > button {
+    min-width: 120px;
+    color: aliceblue;
+    background-color: #FFAC00; 
+    border: none;
+    padding: 15px 32px;
+    transition: background-color .25;
+}
+#nav > ul > button:hover {
+    background-color: #FF520D; 
+}
 .menu {
     display:flex;
-    background:#c9dcec;
+    background:#FFAC00;
     justify-content: space-around;
     list-style-type: none;
     margin:0;
