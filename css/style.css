@@ -52,26 +52,49 @@ body {
 #nav > ul > button:hover {
     background-color: #FF520D; 
 }
-.menu {
+/*
     display:flex;
     background:#FFAC00;
     justify-content: space-around;
     list-style-type: none;
     margin:0;
 }
-
+*/
+#middle-wrapper-width {
+    display: flex;
+    font-family: 'lato', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
 #middle-wrapper {
+    
+}
+.side-by-side {
     display: flex;
 }
-
-#main-content-wrapper{
-  background-color: greenyellow;
-      width:80%;
+#main-content-wrapper .image-content {
+      text-align: center;
+      margin-top: 50px;
+      width: 50%;
+}
+.image-content > img {
+    max-width: 200px;
+    border-radius: 50%;
 }
 
+.image-content > h4 {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    color: #FFAC00;
+}
+
+.image-content > h4 > a:hover {
+    color: #0079E8;
+}
 #aside-content-wrapper {
     background-color: plum;
-    width:20%;
+    width: 20%;
 }
 
 footer {
